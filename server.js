@@ -11,7 +11,7 @@ const supabase = createClient(
 );
 
 app.use(cors({
-  origin: 'https://SEU_FRONTEND_URL', // Substitua pela URL real do frontend depois
+  origin: 'https://certificadoonline.netlify.app', // URL do frontend depois
   methods: ['GET', 'OPTIONS'],
   allowedHeaders: ['Content-Type']
 }));
